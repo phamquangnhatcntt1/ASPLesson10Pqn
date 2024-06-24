@@ -1,0 +1,26 @@
+﻿@model PqnLesson10ASP.Models.pqnkhoa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>pqnkhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PqnEdit", new { id = Model.PqnMaKH }) |
+    @Html.ActionLink("Back to List", "PqnIndex")
+</p>

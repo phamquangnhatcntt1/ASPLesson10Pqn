@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PqnK22CNTT1lesson10Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="pqnketqua">
+    <Key>
+      <PropertyRef Name="PqnMaSV" />
+      <PropertyRef Name="PqnMaMH" />
+    </Key>
+    <Property Name="PqnMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PqnMaMH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Diem" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="pqnkhoa">
+    <Key>
+      <PropertyRef Name="PqnMaKH" />
+    </Key>
+    <Property Name="PqnMaKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PqnTenKH" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="pqnmonhoc">
+    <Key>
+      <PropertyRef Name="PqnMaMH" />
+    </Key>
+    <Property Name="PqnMaMH" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PqnTenMH" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sotiet" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="pqnsinhvien">
+    <Key>
+      <PropertyRef Name="PqnMaSV" />
+    </Key>
+    <Property Name="PqnMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PqnHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="PqnTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="PqnPhai" Type="bit" />
+    <Property Name="PqnNgaySinh" Type="date" />
+    <Property Name="PqnNoiSinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="PqnMaKH" Type="nvarchar" MaxLength="50" />
+    <Property Name="PqnHocBong" Type="nvarchar" MaxLength="50" />
+    <Property Name="PqnDiemTrungBinh" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_pqnketqua_pqnmonhoc">
+    <End Role="pqnmonhoc" Type="Self.pqnmonhoc" Multiplicity="1" />
+    <End Role="pqnketqua" Type="Self.pqnketqua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pqnmonhoc">
+        <PropertyRef Name="PqnMaMH" />
+      </Principal>
+      <Dependent Role="pqnketqua">
+        <PropertyRef Name="PqnMaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pqnketqua_pqnsinhvien">
+    <End Role="pqnsinhvien" Type="Self.pqnsinhvien" Multiplicity="1" />
+    <End Role="pqnketqua" Type="Self.pqnketqua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pqnsinhvien">
+        <PropertyRef Name="PqnMaSV" />
+      </Principal>
+      <Dependent Role="pqnketqua">
+        <PropertyRef Name="PqnMaSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pqnsinhvien_pqnkhoa">
+    <End Role="pqnkhoa" Type="Self.pqnkhoa" Multiplicity="0..1" />
+    <End Role="pqnsinhvien" Type="Self.pqnsinhvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pqnkhoa">
+        <PropertyRef Name="PqnMaKH" />
+      </Principal>
+      <Dependent Role="pqnsinhvien">
+        <PropertyRef Name="PqnMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PqnK22CNTT1lesson10ModelStoreContainer">
+    <EntitySet Name="pqnketqua" EntityType="Self.pqnketqua" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pqnkhoa" EntityType="Self.pqnkhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pqnmonhoc" EntityType="Self.pqnmonhoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pqnsinhvien" EntityType="Self.pqnsinhvien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_pqnketqua_pqnmonhoc" Association="Self.FK_pqnketqua_pqnmonhoc">
+      <End Role="pqnmonhoc" EntitySet="pqnmonhoc" />
+      <End Role="pqnketqua" EntitySet="pqnketqua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pqnketqua_pqnsinhvien" Association="Self.FK_pqnketqua_pqnsinhvien">
+      <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+      <End Role="pqnketqua" EntitySet="pqnketqua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pqnsinhvien_pqnkhoa" Association="Self.FK_pqnsinhvien_pqnkhoa">
+      <End Role="pqnkhoa" EntitySet="pqnkhoa" />
+      <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

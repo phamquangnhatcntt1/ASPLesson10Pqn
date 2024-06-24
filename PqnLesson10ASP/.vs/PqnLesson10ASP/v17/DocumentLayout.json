@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\lesson10ASP\\PqnLesson10ASP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnmonhocs\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnmonhocs\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnmonhocs\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnmonhocs\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnmonhocs\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnmonhocs\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnmonhocs\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnmonhocs\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnmonhocs\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnmonhocs\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnkhoas\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnkhoas\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnketquas\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnketquas\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnketquas\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnketquas\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnketquas\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnketquas\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnketquas\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnketquas\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnkhoas\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnkhoas\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnkhoas\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnkhoas\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnkhoas\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnkhoas\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnkhoas\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnkhoas\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\controllers\\pqnkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\controllers\\pqnkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\controllers\\pqnketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\controllers\\pqnketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\controllers\\pqnsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\controllers\\pqnsinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\controllers\\pqnmonhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\controllers\\pqnmonhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\shared\\_pqnlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\shared\\_pqnlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnsinhviens\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnsinhviens\\pqnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnsinhviens\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnsinhviens\\pqnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnsinhviens\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnsinhviens\\pqndetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnsinhviens\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnsinhviens\\pqndelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|e:\\lesson10asp\\pqnlesson10asp\\pqnlesson10asp\\views\\pqnsinhviens\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0682EC6C-DC4F-4AD0-BDF4-6ADF09735EF8}|PqnLesson10ASP\\PqnLesson10ASP.csproj|solutionrelative:pqnlesson10asp\\views\\pqnsinhviens\\pqncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PqnIndex.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnIndex.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnIndex.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnIndex.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:11:37.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PqnEdit.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnEdit.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnEdit.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnEdit.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnEdit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:11:28.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PqnDetails.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDetails.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDetails.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDetails.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:11:21.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PqnDelete.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDelete.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDelete.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDelete.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:11:15.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PqnCreate.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnCreate.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnCreate.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnmonhocs\\PqnCreate.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnmonhocs\\PqnCreate.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:11:06.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PqnEdit.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnEdit.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnketquas\\PqnEdit.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnEdit.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnketquas\\PqnEdit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:10:42.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PqnDetails.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnDetails.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnketquas\\PqnDetails.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnDetails.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnketquas\\PqnDetails.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:10:37.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PqnDelete.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnDelete.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnketquas\\PqnDelete.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnDelete.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnketquas\\PqnDelete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:10:32.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PqnCreate.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnCreate.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnketquas\\PqnCreate.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnketquas\\PqnCreate.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnketquas\\PqnCreate.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:09:45.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PqnCreate.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnCreate.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnCreate.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnCreate.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnCreate.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:58:01.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "pqnsinhviensController.cs",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnsinhviensController.cs",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Controllers\\pqnsinhviensController.cs",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnsinhviensController.cs",
+              "RelativeToolTip": "PqnLesson10ASP\\Controllers\\pqnsinhviensController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwHcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:56:01.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "pqnkhoasController.cs",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnkhoasController.cs",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Controllers\\pqnkhoasController.cs",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnkhoasController.cs",
+              "RelativeToolTip": "PqnLesson10ASP\\Controllers\\pqnkhoasController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwG4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:50:51.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "pqnketquasController.cs",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnketquasController.cs",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Controllers\\pqnketquasController.cs",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnketquasController.cs",
+              "RelativeToolTip": "PqnLesson10ASP\\Controllers\\pqnketquasController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwHYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T12:02:09.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PqnCreate.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnCreate.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnCreate.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnCreate.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnCreate.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:55:29.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PqnDelete.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnDelete.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnDelete.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnDelete.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:55:18.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PqnDetails.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnDetails.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnDetails.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnDetails.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:55:07.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PqnEdit.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnEdit.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnEdit.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnEdit.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnEdit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:54:59.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PqnIndex.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnIndex.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnIndex.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnkhoas\\PqnIndex.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnkhoas\\PqnIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:52:58.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PqnDelete.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDelete.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDelete.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDelete.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDelete.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:58:12.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PqnDetails.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDetails.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDetails.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDetails.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnDetails.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:58:24.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PqnEdit.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnEdit.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnEdit.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnEdit.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnEdit.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAF4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:58:37.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "pqnmonhocsController.cs",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnmonhocsController.cs",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Controllers\\pqnmonhocsController.cs",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Controllers\\pqnmonhocsController.cs",
+              "RelativeToolTip": "PqnLesson10ASP\\Controllers\\pqnmonhocsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:59:56.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_PqnLayout.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\Shared\\_PqnLayout.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\Shared\\_PqnLayout.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\Shared\\_PqnLayout.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\Shared\\_PqnLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T12:03:26.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PqnIndex.cshtml",
+              "DocumentMoniker": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnIndex.cshtml",
+              "RelativeDocumentMoniker": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnIndex.cshtml",
+              "ToolTip": "E:\\lesson10ASP\\PqnLesson10ASP\\PqnLesson10ASP\\Views\\pqnsinhviens\\PqnIndex.cshtml",
+              "RelativeToolTip": "PqnLesson10ASP\\Views\\pqnsinhviens\\PqnIndex.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T11:58:52.087Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PqnK22CNTT1lesson10Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="pqnketqua">
+          <Key>
+            <PropertyRef Name="PqnMaSV" />
+            <PropertyRef Name="PqnMaMH" />
+          </Key>
+          <Property Name="PqnMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PqnMaMH" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Diem" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="pqnkhoa">
+          <Key>
+            <PropertyRef Name="PqnMaKH" />
+          </Key>
+          <Property Name="PqnMaKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PqnTenKH" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="pqnmonhoc">
+          <Key>
+            <PropertyRef Name="PqnMaMH" />
+          </Key>
+          <Property Name="PqnMaMH" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PqnTenMH" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sotiet" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="pqnsinhvien">
+          <Key>
+            <PropertyRef Name="PqnMaSV" />
+          </Key>
+          <Property Name="PqnMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PqnHoSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="PqnTenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="PqnPhai" Type="bit" />
+          <Property Name="PqnNgaySinh" Type="date" />
+          <Property Name="PqnNoiSinh" Type="nvarchar" MaxLength="50" />
+          <Property Name="PqnMaKH" Type="nvarchar" MaxLength="50" />
+          <Property Name="PqnHocBong" Type="nvarchar" MaxLength="50" />
+          <Property Name="PqnDiemTrungBinh" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK_pqnketqua_pqnmonhoc">
+          <End Role="pqnmonhoc" Type="Self.pqnmonhoc" Multiplicity="1" />
+          <End Role="pqnketqua" Type="Self.pqnketqua" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnmonhoc">
+              <PropertyRef Name="PqnMaMH" />
+            </Principal>
+            <Dependent Role="pqnketqua">
+              <PropertyRef Name="PqnMaMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pqnketqua_pqnsinhvien">
+          <End Role="pqnsinhvien" Type="Self.pqnsinhvien" Multiplicity="1" />
+          <End Role="pqnketqua" Type="Self.pqnketqua" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnsinhvien">
+              <PropertyRef Name="PqnMaSV" />
+            </Principal>
+            <Dependent Role="pqnketqua">
+              <PropertyRef Name="PqnMaSV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pqnsinhvien_pqnkhoa">
+          <End Role="pqnkhoa" Type="Self.pqnkhoa" Multiplicity="0..1" />
+          <End Role="pqnsinhvien" Type="Self.pqnsinhvien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnkhoa">
+              <PropertyRef Name="PqnMaKH" />
+            </Principal>
+            <Dependent Role="pqnsinhvien">
+              <PropertyRef Name="PqnMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PqnK22CNTT1lesson10ModelStoreContainer">
+          <EntitySet Name="pqnketqua" EntityType="Self.pqnketqua" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pqnkhoa" EntityType="Self.pqnkhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pqnmonhoc" EntityType="Self.pqnmonhoc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pqnsinhvien" EntityType="Self.pqnsinhvien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_pqnketqua_pqnmonhoc" Association="Self.FK_pqnketqua_pqnmonhoc">
+            <End Role="pqnmonhoc" EntitySet="pqnmonhoc" />
+            <End Role="pqnketqua" EntitySet="pqnketqua" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pqnketqua_pqnsinhvien" Association="Self.FK_pqnketqua_pqnsinhvien">
+            <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+            <End Role="pqnketqua" EntitySet="pqnketqua" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pqnsinhvien_pqnkhoa" Association="Self.FK_pqnsinhvien_pqnkhoa">
+            <End Role="pqnkhoa" EntitySet="pqnkhoa" />
+            <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PqnK22CNTT1lesson10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="pqnketqua">
+          <Key>
+            <PropertyRef Name="PqnMaSV" />
+            <PropertyRef Name="PqnMaMH" />
+          </Key>
+          <Property Name="PqnMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PqnMaMH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Diem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="pqnmonhoc" Relationship="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnmonhoc" FromRole="pqnketqua" ToRole="pqnmonhoc" />
+          <NavigationProperty Name="pqnsinhvien" Relationship="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnsinhvien" FromRole="pqnketqua" ToRole="pqnsinhvien" />
+        </EntityType>
+        <EntityType Name="pqnkhoa">
+          <Key>
+            <PropertyRef Name="PqnMaKH" />
+          </Key>
+          <Property Name="PqnMaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PqnTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="pqnsinhvien" Relationship="PqnK22CNTT1lesson10Model.FK_pqnsinhvien_pqnkhoa" FromRole="pqnkhoa" ToRole="pqnsinhvien" />
+        </EntityType>
+        <EntityType Name="pqnmonhoc">
+          <Key>
+            <PropertyRef Name="PqnMaMH" />
+          </Key>
+          <Property Name="PqnMaMH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PqnTenMH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sotiet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="pqnketqua" Relationship="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnmonhoc" FromRole="pqnmonhoc" ToRole="pqnketqua" />
+        </EntityType>
+        <EntityType Name="pqnsinhvien">
+          <Key>
+            <PropertyRef Name="PqnMaSV" />
+          </Key>
+          <Property Name="PqnMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PqnHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PqnTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PqnPhai" Type="Boolean" />
+          <Property Name="PqnNgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="PqnNoiSinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PqnMaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PqnHocBong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PqnDiemTrungBinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="pqnketqua" Relationship="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnsinhvien" FromRole="pqnsinhvien" ToRole="pqnketqua" />
+          <NavigationProperty Name="pqnkhoa" Relationship="PqnK22CNTT1lesson10Model.FK_pqnsinhvien_pqnkhoa" FromRole="pqnsinhvien" ToRole="pqnkhoa" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="PqnK22CNTT1lesson10Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="pqnketqua" EntityType="Self.pqnketqua" />
+          <EntitySet Name="pqnkhoa" EntityType="Self.pqnkhoa" />
+          <EntitySet Name="pqnmonhoc" EntityType="Self.pqnmonhoc" />
+          <EntitySet Name="pqnsinhvien" EntityType="Self.pqnsinhvien" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <AssociationSet Name="FK_pqnketqua_pqnmonhoc" Association="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnmonhoc">
+            <End Role="pqnmonhoc" EntitySet="pqnmonhoc" />
+            <End Role="pqnketqua" EntitySet="pqnketqua" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pqnketqua_pqnsinhvien" Association="PqnK22CNTT1lesson10Model.FK_pqnketqua_pqnsinhvien">
+            <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+            <End Role="pqnketqua" EntitySet="pqnketqua" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pqnsinhvien_pqnkhoa" Association="PqnK22CNTT1lesson10Model.FK_pqnsinhvien_pqnkhoa">
+            <End Role="pqnkhoa" EntitySet="pqnkhoa" />
+            <End Role="pqnsinhvien" EntitySet="pqnsinhvien" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_pqnketqua_pqnmonhoc">
+          <End Type="PqnK22CNTT1lesson10Model.pqnmonhoc" Role="pqnmonhoc" Multiplicity="1" />
+          <End Type="PqnK22CNTT1lesson10Model.pqnketqua" Role="pqnketqua" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnmonhoc">
+              <PropertyRef Name="PqnMaMH" />
+            </Principal>
+            <Dependent Role="pqnketqua">
+              <PropertyRef Name="PqnMaMH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pqnketqua_pqnsinhvien">
+          <End Type="PqnK22CNTT1lesson10Model.pqnsinhvien" Role="pqnsinhvien" Multiplicity="1" />
+          <End Type="PqnK22CNTT1lesson10Model.pqnketqua" Role="pqnketqua" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnsinhvien">
+              <PropertyRef Name="PqnMaSV" />
+            </Principal>
+            <Dependent Role="pqnketqua">
+              <PropertyRef Name="PqnMaSV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pqnsinhvien_pqnkhoa">
+          <End Type="PqnK22CNTT1lesson10Model.pqnkhoa" Role="pqnkhoa" Multiplicity="0..1" />
+          <End Type="PqnK22CNTT1lesson10Model.pqnsinhvien" Role="pqnsinhvien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pqnkhoa">
+              <PropertyRef Name="PqnMaKH" />
+            </Principal>
+            <Dependent Role="pqnsinhvien">
+              <PropertyRef Name="PqnMaKH" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PqnK22CNTT1lesson10ModelStoreContainer" CdmEntityContainer="PqnK22CNTT1lesson10Entities">
+          <EntitySetMapping Name="pqnketqua">
+            <EntityTypeMapping TypeName="PqnK22CNTT1lesson10Model.pqnketqua">
+              <MappingFragment StoreEntitySet="pqnketqua">
+                <ScalarProperty Name="PqnMaSV" ColumnName="PqnMaSV" />
+                <ScalarProperty Name="PqnMaMH" ColumnName="PqnMaMH" />
+                <ScalarProperty Name="Diem" ColumnName="Diem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pqnkhoa">
+            <EntityTypeMapping TypeName="PqnK22CNTT1lesson10Model.pqnkhoa">
+              <MappingFragment StoreEntitySet="pqnkhoa">
+                <ScalarProperty Name="PqnMaKH" ColumnName="PqnMaKH" />
+                <ScalarProperty Name="PqnTenKH" ColumnName="PqnTenKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pqnmonhoc">
+            <EntityTypeMapping TypeName="PqnK22CNTT1lesson10Model.pqnmonhoc">
+              <MappingFragment StoreEntitySet="pqnmonhoc">
+                <ScalarProperty Name="PqnMaMH" ColumnName="PqnMaMH" />
+                <ScalarProperty Name="PqnTenMH" ColumnName="PqnTenMH" />
+                <ScalarProperty Name="Sotiet" ColumnName="Sotiet" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pqnsinhvien">
+            <EntityTypeMapping TypeName="PqnK22CNTT1lesson10Model.pqnsinhvien">
+              <MappingFragment StoreEntitySet="pqnsinhvien">
+                <ScalarProperty Name="PqnMaSV" ColumnName="PqnMaSV" />
+                <ScalarProperty Name="PqnHoSV" ColumnName="PqnHoSV" />
+                <ScalarProperty Name="PqnTenSV" ColumnName="PqnTenSV" />
+                <ScalarProperty Name="PqnPhai" ColumnName="PqnPhai" />
+                <ScalarProperty Name="PqnNgaySinh" ColumnName="PqnNgaySinh" />
+                <ScalarProperty Name="PqnNoiSinh" ColumnName="PqnNoiSinh" />
+                <ScalarProperty Name="PqnMaKH" ColumnName="PqnMaKH" />
+                <ScalarProperty Name="PqnHocBong" ColumnName="PqnHocBong" />
+                <ScalarProperty Name="PqnDiemTrungBinh" ColumnName="PqnDiemTrungBinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="PqnK22CNTT1lesson10Model.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

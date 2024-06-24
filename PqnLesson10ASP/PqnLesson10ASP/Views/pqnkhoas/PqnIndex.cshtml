@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PqnLesson10ASP.Models.pqnkhoa>
+
+@{
+    ViewBag.Title = "PqnPqnPqnIndex";
+}
+
+<h2>PqnPqnPqnIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "PqnCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnTenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnTenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PqnEdit", new { id=item.PqnMaKH.Trim() }) |
+            @Html.ActionLink("Details", "PqnDetails", new { id=item.PqnMaKH.Trim() }) |
+            @Html.ActionLink("Delete", "PqnDelete", new { id=item.PqnMaKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

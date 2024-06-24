@@ -1,0 +1,75 @@
+﻿@model IEnumerable<PqnLesson10ASP.Models.pqnsinhvien>
+
+@{
+    ViewBag.Title = "PqnPqnIndex";
+}
+
+<h2>PqnPqnIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnPhai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnNgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnNoiSinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnHocBong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PqnDiemTrungBinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pqnkhoa.PqnTenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnHoSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnTenSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnPhai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnNgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnNoiSinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnHocBong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PqnDiemTrungBinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pqnkhoa.PqnTenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PqnEdit", new { id=item.PqnMaSV.Trim() }) |
+            @Html.ActionLink("Details", "PqnDetails", new { id=item.PqnMaSV.Trim() }) |
+            @Html.ActionLink("Delete", "PqnDelete", new { id=item.PqnMaSV.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

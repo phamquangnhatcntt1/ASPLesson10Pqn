@@ -1,0 +1,88 @@
+﻿@model PqnLesson10ASP.Models.pqnsinhvien
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>pqnsinhvien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnDiemTrungBinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pqnkhoa.PqnTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pqnkhoa.PqnTenKH)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "PqnPqnPqnIndex")
+        </div>
+    }
+</div>

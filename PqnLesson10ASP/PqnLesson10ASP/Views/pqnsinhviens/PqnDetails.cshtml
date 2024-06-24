@@ -1,0 +1,82 @@
+﻿@model PqnLesson10ASP.Models.pqnsinhvien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>pqnsinhvien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnNoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnNoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnHocBong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnHocBong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PqnDiemTrungBinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PqnDiemTrungBinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pqnkhoa.PqnTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pqnkhoa.PqnTenKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PqnEdit", new { id = Model.PqnMaSV }) |
+    @Html.ActionLink("Back to List", "PqnPqnPqnIndex")
+</p>
